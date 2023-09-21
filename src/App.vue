@@ -1,17 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img src="avatar.jpg" alt="My Avatar" />
+  <h2>姓名 {{ nickname }}</h2>
+  <p>学号 {{ studentId }}</p>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  data() {
+    return {
+      nickname: '杨怡晴',
+      studentId: '2310275014',
+    };
+  },
+};
 </script>
 
 <style>
