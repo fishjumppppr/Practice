@@ -1,7 +1,8 @@
 <template>
-  <img src="avatar.jpg" alt="My Avatar" />
-  <h2>name {{ nickname }}</h2>
-  <p>ID {{ studentId }}</p>
+  <div>
+    <img src="avatar.jpg" alt="My Avatar" />
+    <h2>name {{ nickname }}</h2>
+    <p>ID {{ studentId }}</p>
   </div>
 </template>
 
