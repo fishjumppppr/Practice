@@ -1,7 +1,7 @@
 <template>
   <img src="avatar.jpg" alt="My Avatar" />
-  <h2>姓名 {{ nickname }}</h2>
-  <p>学号 {{ studentId }}</p>
+  <h2>name {{ nickname }}</h2>
+  <p>ID {{ studentId }}</p>
   </div>
 </template>
 
